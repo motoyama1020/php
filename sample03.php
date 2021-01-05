@@ -20,7 +20,7 @@
 <pre>
 <!-- ここにプログラムを記述します -->
 <?php
-print(date('s'));
+print(date('G時 i分 s秒'));
 ?>
 </pre>
 </main>
