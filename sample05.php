@@ -20,8 +20,9 @@
 <pre>
 <!-- ここにプログラムを記述します -->
 <?php $sum = 100 + 1050 + 200 + 500 ?>
+<?php $tax = 1.1 ?>
 合計金額は：<?php print($sum); ?>円です
-税込み金額は：<?php print($sum * 1.1); ?>円です
+税込み金額は：<?php print($sum * $tax); ?>円です
 </pre>
 </main>
 </body>    
