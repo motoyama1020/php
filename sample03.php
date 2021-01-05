@@ -19,11 +19,9 @@
 <h2>Practice</h2>
 <pre>
 <!-- ここにプログラムを記述します -->
-
 <?php
-print(1*1);
+print(date('s'));
 ?>
-
 </pre>
 </main>
 </body>    
